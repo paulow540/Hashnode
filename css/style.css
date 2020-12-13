@@ -160,8 +160,8 @@ aside {
 
 .founder {
   margin-top: -100px;
-  overflow-x: scroll;
-  overflow-y: hidden;
+  /* overflow-x: scroll; */
+  /* overflow-y: hidden; */
 }
 
 .founder p {
@@ -391,54 +391,58 @@ aside {
   }
 
   .founder {
-    overflow-x: inherit;
+    overflow-x:scroll;
     margin-top: 100px;
     margin-left: -100px;
-    width: 800px;
-    display: none;
+    
+    
+    /* display: flex; */
+  }
+  .zm{
+    display: flex;
+    width: 1000px;
   }
 
   .founder p {
     font-size: 10px;
-    display: none;
+    /* display: none; */
   }
 
-  .noo {
-    display: flex;
-  }
+  
+ 
 
   .level1 {
-    width: 400px;
+    width: 300px;
     border: 1px solid gray;
     padding: 30px;
-    margin-left: 15px;
+    /* margin-left: 15px; */
     border-radius: 5px;
     font-size: 15px;
-    display: none;
+    /* display: none; */
   }
 
   .qui {
     margin-top: -40px;
     margin-left: 45px;
-    display: none;
+    /* display: none; */
   }
 
   .level1 img {
     width: 40px;
     height: 40px;
     border-radius: 20px;
-    display: none;
+    /* display: none; */
   }
 
   .fon {
     margin-top: -15px;
     margin-left: 45px;
     font-size: 20px;
-    display: none;
+    /* display: none; */
   }
 
   .full {
-    display: none;
+    margin-left: -20%;
   }
 
   #what {
@@ -449,11 +453,14 @@ aside {
   .oll {
     font-size: 30px;
   }
+  .bvb{
+    margin-left: -30px;
+  }
 
   .oll2 {
     width: 60px;
     height: 60px;
-    margin-left: -20px;
+    margin-left: -10px;
     margin-top: -20px;
   }
 
@@ -497,7 +504,7 @@ aside {
 
   .zy {
     margin-top: 500px;
-    margin-left: -250px;
+    margin-left: -230px;
   }
 
   .zy p {
@@ -506,7 +513,7 @@ aside {
 
   .zw {
     margin-top: 1000px;
-    margin-left: -250px;
+    margin-left: -230px;
   }
 
   .zw p {
@@ -518,7 +525,12 @@ aside {
     font-size: 15px;
     margin-left: -70px;
   }
-
+/* .nbn{
+  margin-left: 50px;
+}
+.nbn1{
+  margin-left: 60px;
+} */
   #sec1 {
     padding-top: -60px;
     display: none;
@@ -596,26 +608,46 @@ aside {
   }
 
   .cir2 {
-    width: 600px;
-    height: 450px;
-    border-radius: 100% 100%;
+    width: 300px;
+    height: 250px;
+    border-radius: 100px 100px;
     background-color: rgba(208, 208, 238, 0.37);
     margin-top: -300px;
     z-index: -1;
     transform: rotate(130deg);
-    display: none;
+    /* display: none; */
   }
 
   .comes {
-    margin-top: -300px;
-    margin-left: 50px;
-    display: none;
+    margin-top: 30px;
+    margin-left: -120px;
+    width: 400px;
+    /* display: none; */
+  }
+  .cmc{
+    display: block;
+    background-color: white;
+    border: none;
+    width: auto;
+    outline: none;
+   margin-left: -100px;
+   box-shadow: none;
+
+  }
+  .cmd1{
+    width: 200px;
+    /* z-index: 1; */
+    margin-left: 20px;
+
+  }
+  .cmd{
+    margin-left: -50px;
   }
 
-  .myy {
+  /* .myy {
     margin-left: 30px;
     display: none;
-  }
+  } */
 
   #omm {
     width: 270px;
